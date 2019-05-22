@@ -1,0 +1,10 @@
+export function action(type: any, payload: any, meta: any, error: any): any;
+export function createAction(type: any, createHandler: any): any;
+export function createActionDeprecated(actionType: any, creatorFunction: any): any;
+export function createAsyncAction(requestType: any, successType: any, failureType: any, cancelType: any): any;
+export function createCustomAction(type: any, createHandler: any): any;
+export function createReducer(initialState: any, initialHandlers: any): any;
+export function createStandardAction(type: any): any;
+export function getType(actionCreator: any): any;
+export function isActionOf(actionCreatorOrCreators: any, action: any): any;
+export function isOfType(actionTypeOrTypes: any, action: any): any;
